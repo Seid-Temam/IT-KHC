@@ -11,6 +11,17 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+@media (max-width: 2300px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 2100px) {
+  html {
+    font-size: 70%;
+  }
+}
 body {
   background-color: #fff;
   color: #000;

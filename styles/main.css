@@ -5,7 +5,7 @@ header {
   top: 0;
   background-color: #fff;
   z-index: 1000;
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 header nav {
@@ -380,26 +380,10 @@ ion-icon {
   padding: 2rem 1.5rem;
   border-radius: 8px;
 }
-@media screen and (max-width: 767px) {
-  .carousel {
-    width: 100%;
-    padding: 2rem 16px;
-  }
-}
 .carousel__wrapper {
   position: relative;
   height: 100%;
   left: -60px;
-}
-@media screen and (max-width: 768px) {
-  .carousel__wrapper {
-    left: -39px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .carousel__wrapper {
-    left: 0;
-  }
 }
 .carousel__slider {
   height: 100%;
@@ -436,11 +420,6 @@ ion-icon {
     rgba(51, 51, 255, 1) 0%,
     rgba(102, 102, 255, 1) 100%
   );
-}
-@media screen and (max-width: 767px) {
-  .carousel__slide {
-    padding: 40px 20px;
-  }
 }
 .carousel__slide.carousel-slide-1 h2,
 .carousel__slide.carousel-slide-1 h2 {
@@ -513,18 +492,6 @@ ion-icon {
   border-right: 8px solid transparent;
   border-bottom: 16px solid #254a5d;
   position: absolute;
-}
-@media screen and (max-width: 768px) {
-  .carousel__next,
-  .carousel__prev {
-    right: -81px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .carousel__next,
-  .carousel__prev {
-    display: none;
-  }
 }
 .carousel__next {
   top: calc(50% + 60px);
@@ -710,10 +677,12 @@ ion-icon {
   margin-inline: auto;
 }
 .map {
-  width: 50%;
+  width: 60%;
+  height: 60rem;
 }
 iframe {
   width: 100%;
+  height: 100%;
 }
 
 .contact-us {
@@ -746,9 +715,8 @@ textarea {
 
 .contact-us input:focus,
 textarea:focus {
-  border-color: #fff; /* green border on focus */
+  border-color: #fff;
   outline: none;
-  /* box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); */
 }
 
 .btn-secondary {
