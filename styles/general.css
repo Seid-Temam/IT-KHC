@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease-in-out 300ms;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "Ancizar Serif", serif;
+}
+.container {
+  max-width: 180rem;
+  width: 96%;
+  margin-inline: auto;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+p {
+  font-size: 2.5rem;
+}
+.logo p {
+  font-size: 4rem;
+}
+.flex-x {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-start {
+  justify-self: start;
+}
+.js-end {
+  justify-self: end;
+}

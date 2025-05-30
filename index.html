@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kality Health Center</title>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/queries.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <p>KHC</p>
+        </div>
+        <nav>
+          <ul class="flex-x">
+            <li><a href="/">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#testimonial">testimonial</a></li>
+            <li><a href="#faq">faq</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-btns flex-x">
+          <button class="header-btn"><a href="#services">Services</a></button>
+          <div class="dropdown">
+            <button class="dropbtn">Language ▼</button>
+            <div class="dropdown-content">
+              <a href="#">English</a>
+              <a href="#">Amharic</a>
+              <a href="#">Afaan Oromo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero center" id="hero">
+      <div class="custom-shape-divider-bottom-1748296818">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="container flex-x">
+        <div class="hero-textbox">
+          <h1 class="text-center">
+            Welcome to Kality Health Center <br /><span
+              class="highlight-wrapper"
+              ><span class="rotating-text" id="rotatingText"></span
+            ></span>
+            Care for All
+          </h1>
+          <p>
+            Our dedicated team is committed to delivering accessible and
+            affordable medical services with respect, integrity, and care —
+            because your health matters.
+          </p>
+          <div class="hero-stats">
+            <div class="stat">
+              <h3>15K+</h3>
+              <p>Patients Treated</p>
+            </div>
+            <div class="stat">
+              <h3>25+</h3>
+              <p>Health professionals</p>
+            </div>
+            <div class="stat">
+              <h3>20+</h3>
+              <p>Medical Services</p>
+            </div>
+            <div class="stat">
+              <h3>10+</h3>
+              <p>Years of Trusted Care</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <div class="about-text">
+          <p>
+            Kality Health Center, located in Woreda 07 of Akaki Kality Sub-City,
+            is dedicated to delivering accessible, high-quality healthcare
+            services to our growing community. As a trusted public health
+            institution, we serve thousands of residents each year with
+            compassion, professionalism, and a deep commitment to improving
+            community well-being. Our dedicated team of healthcare professionals
+            works tirelessly to ensure that every patient receives timely and
+            respectful care, regardless of their background. With a focus on
+            prevention, education, and continuous service improvement, Kality
+            Health Center stands as a pillar of health and hope for all who rely
+            on us.
+          </p>
+        </div>
+        <div class="mvp-container">
+          <div class="mission">
+            <div class="mission-textbox js-start">
+              <h3><span>our</span>mission</h3>
+              <p>
+                We are dedicated to improving the health of our community
+                through:
+              </p>
+              <ul>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Providing accessible, affordable, and quality healthcare
+                  services for all.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Promoting disease prevention and healthy living through
+                  education and outreach.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Ensuring maternal, child, and family health services are
+                  available and inclusive.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Strengthening community trust through compassionate,
+                  patient-centered care.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Collaborating with local and national health agencies to
+                  improve public health outcomes.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Empowering individuals with the knowledge and resources to
+                  manage their health.
+                </li>
+              </ul>
+            </div>
+            <div class="mission-imgbox js-end">
+              <img src="./imgs/mission.png" alt="" />
+            </div>
+          </div>
+          <div class="vision">
+            <div class="vision-imgbox js-start">
+              <img src="./imgs/vision.png" alt="" />
+            </div>
+            <div class="vision-textbox js-end">
+              <h3><span>our</span>vision</h3>
+              <p>We strive to build a healthier future for our community by:</p>
+              <ul>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Becoming a leading example of community-based healthcare
+                  excellence.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Ensuring every resident has access to timely, affordable, and
+                  high-quality care.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Reducing preventable diseases through proactive education and
+                  outreach.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Creating a trusted, inclusive space where all individuals feel
+                  respected and cared for.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Embracing innovation and continuous improvement in healthcare
+                  delivery.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Promoting long-term wellness and sustainable public health
+                  solutions.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="values">
+            <div class="values-textbox js-start">
+              <h3><span>our</span>values</h3>
+              <p>
+                We are guided by the following principles in everything we do:
+              </p>
+              <ul>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Compassion &dash; We treat every patient with kindness,
+                  dignity, and respect.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Equity &dash; We are committed to serving all individuals
+                  fairly, regardless of background or income.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Integrity &dash; We uphold the highest standards of honesty,
+                  ethics, and professionalism.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Accessibility &dash; We work to ensure that healthcare is
+                  available to everyone in our community.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Excellence &dash; We strive for the highest quality in care,
+                  service, and continuous improvement.
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                  Collaboration &dash; We believe in teamwork among staff,
+                  patients, families, and community partners.
+                </li>
+              </ul>
+            </div>
+            <div class="values-imgbox js-end">
+              <img src="./imgs/values.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="services-heading">Services</h2>
+        <p class="services-desc">
+          Kality Health Center proudly offers over 20 essential health services
+          designed to meet the needs of our diverse community. Below are a few
+          of our most commonly accessed services.
+        </p>
+        <div class="services-container">
+          <div class="service">
+            <div class="service-img">
+              <!-- <img
+                src="./imgs/family-planning.png"
+                alt="image of health worker contraceptive education"
+              /> -->
+            </div>
+            <h3>Family Planning</h3>
+            <div class="service-text">
+              <p>
+                We provide safe, confidential family planning options to help
+                individuals and couples make informed decisions about their
+                reproductive health.
+              </p>
+            </div>
+            <a href="" class="btn-link">Learn More &rarr;</a>
+          </div>
+          <div class="service">
+            <div class="service-img">
+              <!-- <img
+                src="./imgs/mch.png"
+                alt="image of mother and child health checkup"
+              /> -->
+            </div>
+            <h3>Maternal and Child Health</h3>
+            <div class="service-text">
+              <p>
+                Comprehensive care for mothers and children, including antenatal
+                checkups, postnatal care, and child wellness monitoring.
+              </p>
+            </div>
+            <a href="" class="btn-link">Learn More &rarr;</a>
+          </div>
+          <div class="service">
+            <div class="service-img">
+              <!-- <img src="./imgs/opd.png" alt="primary care patient treatment" /> -->
+            </div>
+            <h3>Outpatient Department</h3>
+            <div class="service-text">
+              <p>
+                General medical consultations and treatment for common
+                illnesses, with referrals to hospitals when needed.
+              </p>
+            </div>
+            <a href="" class="btn-link">Learn More &rarr;</a>
+          </div>
+          <div class="service">
+            <div class="service-img">
+              <!-- <img src="./imgs/immunization.png" alt="child immunization" /> -->
+            </div>
+            <h3>Immunization</h3>
+            <div class="service-text">
+              <p>
+                Routine vaccinations for children and adults to protect against
+                life-threatening diseases like measles, polio, and tetanus.
+              </p>
+            </div>
+            <a href="" class="btn-link">Learn More &rarr;</a>
+          </div>
+          <div class="service">
+            <div class="service-img">
+              <!-- <img
+                src="./imgs/health-education.png"
+                alt="image of community health education"
+              /> -->
+            </div>
+            <h3>Health Education</h3>
+            <div class="service-text">
+              <p>
+                Community-based sessions and one-on-one counseling on hygiene,
+                nutrition, disease prevention, family health, and more.
+              </p>
+            </div>
+            <a href="" class="btn-link">Learn More &rarr;</a>
+          </div>
+        </div>
+        <a href="" class="services-btn center">View All Services</a>
+      </div>
+    </section>
+    <section class="carousel" id="testimonial">
+      <h2>What Our Patients Say</h2>
+      <p class="testimonial-desc">
+        Hear from the people we serve — real stories of care, healing, and trust
+        at Kality Health Center.
+      </p>
+      <section class="carousel__wrapper">
+        <section id="carousel__slider" class="carousel__slider">
+          <section class="carousel__slide" data-class="1" data-position="1">
+            <section class="carousel__content">
+              <div class="patient-img patient-one"></div>
+              <p class="patient-name">Hayat Nuru</p>
+              <p class="patient-message">
+                I’ve been coming to this health center for years, and they
+                always treat me with kindness and patience. The nurses are
+                respectful, and I feel safe knowing I can get the care I need
+                without going far from home.
+              </p>
+            </section>
+          </section>
+          <secion class="carousel__slide mid" data-class="2" data-position="2">
+            <section class="carousel__content">
+              <div class="patient-img patient-two"></div>
+              <p class="patient-name">Getu Alemu</p>
+              <p class="patient-message">
+                I came here when I was very sick, and the doctors acted quickly
+                to help me. They explained everything clearly, and the service
+                was fast and professional. I'm grateful for the care I received.
+              </p>
+            </section>
+          </secion>
+          <section
+            class="carousel__slide right"
+            data-class="3"
+            data-position="3"
+          >
+            <section class="carousel__content">
+              <div class="patient-img patient-three"></div>
+              <p class="patient-name">Semira Adem</p>
+              <p class="patient-message">
+                The maternal care I received during my pregnancy was excellent.
+                The staff supported me through every stage, and I delivered my
+                baby safely. I highly recommend this health center to all
+                mothers.
+              </p>
+            </section>
+          </section>
+          <section
+            class="carousel__slide left"
+            data-class="4"
+            data-position="4"
+          >
+            <section class="carousel__content">
+              <div class="patient-img patient-four"></div>
+              <p class="patient-name">Tesfaye Worku</p>
+              <p class="patient-message">
+                The health education I received here changed my life. I learned
+                how to take care of my diabetes and eat better. The health
+                workers here truly care about our well-being.
+              </p>
+            </section>
+          </section>
+        </section>
+        <section id="carousel__next" class="carousel__next">
+          <span></span>
+        </section>
+        <section id="carousel__prev" class="carousel__prev">
+          <span></span>
+        </section>
+      </section>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title"
+                >What services are available at Kality Health Center?</span
+              ><span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                We provide a range of essential health services including
+                maternal and child health care, family planning, outpatient
+                services, immunization, and health education & counseling.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false">
+              <span class="accordion-title">What are your working hours?</span
+              ><span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Kality Health Center is open Monday to Friday, from 8:00 AM to
+                5:30 PM for regular services. However, the emergency unit
+                operates 24/7, including weekends and public holidays, to ensure
+                urgent care is always available.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false">
+              <span class="accordion-title"
+                >Do I need an appointment to get care?</span
+              ><span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                No appointment is needed for most services. Patients are served
+                on a first-come, first-served basis during working hours. For
+                some services like maternal care follow-ups, scheduled visits
+                may be arranged.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false">
+              <span class="accordion-title"
+                >Is care free or do I have to pay?</span
+              ><span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Many services are provided free of charge or at a minimal cost,
+                especially for children, mothers, and priority programs. Please
+                ask at the reception for specific service details.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title"
+                >Where is the health center located?</span
+              ><span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                We are located in Woreda 07, Akaki Kality Sub-City, Addis Ababa
+                — easily accessible from main roads and local transport lines.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.7643262539664!2d38.76517047566459!3d8.901489291154862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b831b17063dcd%3A0x5fd5da31dee6036c!2sKality%20Health%20Center!5e0!3m2!1sen!2set!4v1747821096498!5m2!1sen!2set"
+            width="600"
+            height="460"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="contact-us">
+          <h2 class="contact-heading">Contact Us</h2>
+          <p class="contact-desc">
+            If you have any questions or need assistance feel free to reach out
+            to us.
+          </p>
+          <form>
+            <div class="form-element">
+              <input type="text" class="form-control" placeholder="Your name" />
+            </div>
+            <div class="form-element">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your email"
+              />
+            </div>
+            <div class="form-element">
+              <textarea
+                placeholder="Your Message"
+                class="form-control"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">
+              <i class="fas fa-arrow-right"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <div class="footer-about">
+              <p>Kality Health Center</p>
+              <p>KHC</p>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <div class="footer-contact">
+              <p>
+                <ion-icon name="location-outline"></ion-icon>
+                <span>Akaki Kality, Woreda 07</span>
+              </p>
+              <p>
+                <ion-icon name="call-outline"></ion-icon>
+                <span>0929614592</span>
+              </p>
+              <p>
+                <ion-icon name="mail-outline"></ion-icon>
+                <span>khc@healthcenter.gov.et</span>
+              </p>
+              <p>
+                <ion-icon name="time-outline"></ion-icon>
+                <span>Mon-Fri 8am-5pm</span>
+              </p>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="quick-links">
+              <p>Services</p>
+              <p>Staff</p>
+              <p>Appointment</p>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <ul class="social-links">
+              <li><ion-icon name="logo-youtube"></ion-icon></li>
+              <li><ion-icon name="logo-instagram"></ion-icon></li>
+              <li><ion-icon name="logo-twitter"></ion-icon></li>
+            </ul>
+          </div>
+        </div>
+        <p class="members">
+          <strong>Designed and Developed by: </strong>Betelhem Solomon, Redwan
+          kemer, Marta shimels, Nahili Mideksa, Yeabsira Abebe and Ikram Nesru
+        </p>
+        <div class="year">&#169; 2025</div>
+      </footer>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/carousal.js"></script>
+    <script src="./js/faq.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
